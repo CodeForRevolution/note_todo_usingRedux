@@ -1,9 +1,11 @@
 
 import "./NavBar.css";
+import { Outlet } from "react-router-dom";
 
 function NavBar(){
     return(
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <>
+             <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">Utility Apps</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,6 +23,15 @@ function NavBar(){
     </div>
   </div>
 </nav>
+    <div className="bodyMain">
+    <h1>this is </h1>
+<Outlet>
+
+</Outlet>
+    </div>
+      </>
+ 
+
     );
 }
 
