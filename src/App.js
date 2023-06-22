@@ -20,7 +20,7 @@ function App() {
           <Route path="note_todo_usingRedux" element={<Home />}>
             
           </Route>
-          <Route path="note_todo_usingRedux/todo"
+          <Route path="/todo"
           element={
             <Fragment>
               <NavBar />
@@ -31,7 +31,7 @@ function App() {
           }>
 
           </Route>
-          <Route path="note_todo_usingRedux/notes"
+          <Route path="/notes"
           element={
             <Fragment>
                <NavBar />
