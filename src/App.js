@@ -17,7 +17,7 @@ function App() {
       <Provider store={store}>
         <BrowserRouter>
         <Routes>
-          <Route path="" element={<Home />}>
+          <Route path="note_todo_usingRedux" element={<Home />}>
             
           </Route>
           <Route path="todo"
