@@ -15,7 +15,7 @@ function App() {
   
   const router=createBrowserRouter([
     { 
-      path:'/' ,element:<NavBar/> ,children:[
+      path:'' ,element:<NavBar/> ,children:[
         {index:true,element:<Home/>},
         {path:'todo',element:<TodoForm/>},
         {path:'notes',element:<NoteForm/>}
