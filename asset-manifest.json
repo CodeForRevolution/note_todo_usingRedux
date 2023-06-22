@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/note_todo_usingRedux/static/css/main.b79fcfc6.css",
+    "main.js": "/note_todo_usingRedux/static/js/main.6b26c40a.js",
+    "index.html": "/note_todo_usingRedux/index.html",
+    "main.b79fcfc6.css.map": "/note_todo_usingRedux/static/css/main.b79fcfc6.css.map",
+    "main.6b26c40a.js.map": "/note_todo_usingRedux/static/js/main.6b26c40a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b79fcfc6.css",
+    "static/js/main.6b26c40a.js"
+  ]
+}
